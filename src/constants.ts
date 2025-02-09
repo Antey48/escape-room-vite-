@@ -51,10 +51,10 @@ const THEME_QUESTS = [
 const DEFAULT_ACTIVE_THEME_QUESTS = THEME_QUESTS[0];
 
 const LEVELS = [
-  'Любой',
-  'Лёгкий',
-  'Средний',
-  'Сложный',
+  {rus:'Любой', eng: 'any'},
+  {rus:'Лёгкий',eng: 'easy'},
+  {rus:'Средний',eng: 'middle'},
+  {rus:'Сложный',eng: 'hard'},
 ] as const;
 const DEFAULT_ACTIVE_LEVELS = LEVELS[0];
 

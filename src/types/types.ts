@@ -10,13 +10,13 @@ type PageNameType = {
      'Contacts': string;
   };
 
-type DifficultyType = typeof LEVELS;
-type DifficultyKeysType = DifficultyType[number];
+type LevelsType = typeof LEVELS;
+type LevelKeysType = LevelsType[number];
 
 type ThemeQuestsType = typeof THEME_QUESTS;
-type ThemeQuestsKeysType = ThemeQuestsType[number];
+type ThemeQuestKeysType = ThemeQuestsType[number];
 
 
-export type {PageNameType, DifficultyType, DifficultyKeysType,
-  ThemeQuestsType, ThemeQuestsKeysType
+export type {PageNameType, LevelsType, LevelKeysType,
+  ThemeQuestsType, ThemeQuestKeysType
 };
